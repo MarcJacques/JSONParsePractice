@@ -37,7 +37,9 @@ class UsersTableViewController: UITableViewController {
         
         let user = apiController.users[indexPath.row]
         
-        cell.textLabel?.text = user.name.first.capitalized
+        cell.textLabel?.text = user.name.first.capitalized + " " + user.name.last.capitalized
+        guard let imageData = try? Data(contentsOf: user.picture.thumbnail) else { fatalError() }
+        cell.imageView?.image = UIImage(data: imageData)
         return cell
     }
     
