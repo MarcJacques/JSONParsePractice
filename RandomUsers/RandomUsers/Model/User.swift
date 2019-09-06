@@ -13,6 +13,10 @@ struct UserResult: Decodable {
 }
 
 struct User: Decodable {
+    var name: Name
+}
+
+struct Name: Decodable {
+    var first: String
     
-    let name: String
 }

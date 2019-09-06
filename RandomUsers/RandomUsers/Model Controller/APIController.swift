@@ -20,7 +20,7 @@ class APIController {
             if let error = error { // were using if let because we don't really care whether or not theres an error
                 NSLog("Error getting users: \(error)") //NSLOG documents more info such as time and other details
             }
-            guard let data = data { // we absolutely need data so we use guard let
+            guard let data = data else { // we absolutely need data so we use guard 
                 NSLog("No data returned from data task.")
                 completion(nil) //if we don't get data get out
                 return
