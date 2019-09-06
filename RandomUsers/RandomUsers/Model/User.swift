@@ -15,5 +15,4 @@ struct UserResult: Decodable {
 struct User: Decodable {
     
     let name: String
-    let
 }

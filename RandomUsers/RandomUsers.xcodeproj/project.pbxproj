@@ -10,6 +10,7 @@
 		05350BA92321DE250094EB97 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350BA82321DE250094EB97 /* UsersTableViewController.swift */; };
 		05350BAB2321DE410094EB97 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350BAA2321DE410094EB97 /* UserDetailViewController.swift */; };
 		05350BAE2321DF3F0094EB97 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350BAD2321DF3F0094EB97 /* User.swift */; };
+		05350BB12321E2080094EB97 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05350BB02321E2080094EB97 /* APIController.swift */; };
 		3D97CBEE2321D2BD00739215 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D97CBED2321D2BD00739215 /* AppDelegate.swift */; };
 		3D97CBF32321D2BD00739215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D97CBF12321D2BD00739215 /* Main.storyboard */; };
 		3D97CBF52321D2BE00739215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D97CBF42321D2BE00739215 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		05350BA82321DE250094EB97 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
 		05350BAA2321DE410094EB97 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		05350BAD2321DF3F0094EB97 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		05350BB02321E2080094EB97 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		3D97CBEA2321D2BD00739215 /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D97CBED2321D2BD00739215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D97CBF22321D2BD00739215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		05350BB22321E2280094EB97 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				05350BB02321E2080094EB97 /* APIController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
 		3D97CBE12321D2BC00739215 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		3D97CBEC2321D2BD00739215 /* RandomUsers */ = {
 			isa = PBXGroup;
 			children = (
+				05350BB22321E2280094EB97 /* Model Controller */,
 				3D97CC002321D2EF00739215 /* Storyboards */,
 				3D97CBFF2321D2D900739215 /* Resources */,
 				05350BAC2321DE8A0094EB97 /* View Controllers */,
@@ -177,6 +188,7 @@
 				05350BA92321DE250094EB97 /* UsersTableViewController.swift in Sources */,
 				3D97CBEE2321D2BD00739215 /* AppDelegate.swift in Sources */,
 				05350BAB2321DE410094EB97 /* UserDetailViewController.swift in Sources */,
+				05350BB12321E2080094EB97 /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
